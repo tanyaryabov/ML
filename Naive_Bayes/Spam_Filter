@@ -1,1 +1,36 @@
+import pandas as pd
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.metrics import accuracy_score,confusion_matrix
+from sklearn.model_selection import train_test_split
+from sklearn.feature_extraction.text import CountVectorizer
 
+test=pd.read_csv('Youtube01-Psy.csv')
+train1 = pd.read_csv('Youtube05-Shakira.csv')
+train2= pd.read_csv('Youtube02-KatyPerry.csv')
+train3= pd.read_csv('Youtube03-LMFAO.csv')
+train4= pd.read_csv('Youtube04-Eminem.csv')
+train= pd.concat([train1, train2, train3, train4])
+
+X= train['CONTENT']
+y= train['CLASS']
+
+X_train,X_test,y_train,y_test = train_test_split(X,y,test_size=0.3)
+v= CountVectorizer()
+X_train_count = v.fit_transform(X_train.values)
+X_train_count.toarray()[:2]
+
+
+model = MultinomialNB()
+model.fit(X_train_count, y_train)
+
+
+
+comments= test['CONTENT']
+comments_count= v.transform(comments)
+y_pred= model.predict(comments_count)
+
+print(y_pred)
+X_test_count = v.transform(X_test)
+msc= model.score(X_test_count, y_test)
+
+print(msc)
