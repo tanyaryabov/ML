@@ -10,7 +10,7 @@ Collaborative methods for recommender systems are based on the past interactions
 ### Hybrid Recommender
 This one combines the previous two approaches.
 
-## Movie Recommender System Development
+# Movie Recommender System Development
 
 I've started my project with content based recommendation system and implemented it in 2 different ways:
   1. [Cosine similarity based](https://github.com/tanyaryabov/ML/blob/master/Recommendation_System/Content_Based_Netflix_Recommender.ipynb)
@@ -27,3 +27,19 @@ Implementation of Hybrid recommender:
   1. [KNN]
   2. [SVD]
 
+## Movie Recommendation Engine Development with KNN:
+
+Collaborative filtering Item-based approach is usually preferred than the user-based approach. A user-based approach is often harder to scale because of the dynamic nature of users. In contrast, items typically don't change much, so an item-based approach can often be computed offline.
+KNN is a perfect go-to model for this use case, and KNN is a very good baseline for recommender system development. In item-based collaborative filtering, KNN will use a pre-defined distance metric to find clusters of similar items based on users' ratings and make recommendations using the distance metric in item ratings of top-k nearest neighbors.
+
+### Let's Make Some Recommendations:
+"Pulp Fiction" is one of my favorite movies so I want to test what movie recommendations my system is giving me:
+(#recommender('Pulp Fiction', mat_movies_users, model_knn,5))
+
+Output:
+Movie Selected:  Pulp Fiction (1994) Index:  257
+510          Silence of the Lambs, The (1991)
+277          Shawshank Redemption, The (1994)
+43                Seven (a.k.a. Se7en) (1995)
+314                       Forrest Gump (1994)
+46                 Usual Suspects, The (1995)
