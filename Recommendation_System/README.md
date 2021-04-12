@@ -33,14 +33,12 @@ Collaborative filtering Item-based approach is usually preferred than the user-b
 KNN is a perfect go-to model for this use case, and KNN is a very good baseline for recommender system development. In item-based collaborative filtering, KNN will use a pre-defined distance metric to find clusters of similar items based on users' ratings and make recommendations using the distance metric in item ratings of top-k nearest neighbors.
 
 ### Let's Make Some Recommendations:
-"Pulp Fiction" is one of my favorite movies so I want to test what movie recommendations my system is giving me:
-
-recommender('Pulp Fiction', mat_movies_users, model_knn,5)
+"Pulp Fiction" is one of my favorite movies so I want to test what 5 movies recommendations my system is giving me:
 
 <p>Output:</p>
-Movie Selected:  Pulp Fiction (1994) Index:  257
-510          Silence of the Lambs, The (1991)
-277          Shawshank Redemption, The (1994)
-43                Seven (a.k.a. Se7en) (1995)
-314                       Forrest Gump (1994)
-46                 Usual Suspects, The (1995)
+<p>Movie Selected:  Pulp Fiction (1994)</p>
+<p>510          Silence of the Lambs, The (1991)</p>
+<p>277          Shawshank Redemption, The (1994)</p>
+<p>43                Seven (a.k.a. Se7en) (1995)</p>
+<p>314                       Forrest Gump (1994)</p>
+<p>46                 Usual Suspects, The (1995)</p>
