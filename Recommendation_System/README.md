@@ -1,4 +1,4 @@
-Recommender System Overview
+# Recommender System Overview
 During the last few decades, with the rise of Youtube, Amazon, Netflix, and many other web services, recommender systems have taken more and more place in our lives. A recommender system is a subclass of information filtering systems that seeks to predict the "rating" or "preference" a user would give to an item. Recommender systems are utilized in various areas, including movies, music, news, social tags, and products in general. Recommender systems typically produce a list of recommendations in one of two ways – through collaborative filtering or content-based filtering.
 Collaborative Filtering
 Collaborative methods for recommender systems are based on the past interactions recorded between users and items to produce new recommendations. These interactions are stored in the so-called "user-item interactions matrix."
