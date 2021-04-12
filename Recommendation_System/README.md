@@ -37,8 +37,8 @@ KNN is a perfect go-to model for this use case, and KNN is a very good baseline 
 
 <p>Output:</p>
 <p>Movie Selected:  Pulp Fiction (1994)</p>
-<p>510          Silence of the Lambs, The (1991)</p>
-<p>277          Shawshank Redemption, The (1994)</p>
-<p>43                Seven (a.k.a. Se7en) (1995)</p>
-<p>314                       Forrest Gump (1994)</p>
-<p>46                 Usual Suspects, The (1995)</p>
+<p>Silence of the Lambs, The (1991)</p>
+<p>Shawshank Redemption, The (1994)</p>
+<p>Seven (a.k.a. Se7en) (1995)</p>
+<p>Forrest Gump (1994)</p>
+<p>Usual Suspects, The (1995)</p>
