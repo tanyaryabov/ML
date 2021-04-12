@@ -15,4 +15,4 @@ This one combines the previous two approaches.
 
 I've started my project with content based recommendation system and implemented it in 2 different ways:
   1. Cosine similarity based
-  2. Euclidean distance based
+  2. [Euclidean distance based]https://github.com/tanyaryabov/ML/blob/master/Recommendation_System/Content_Based_Netflix_Recommender__euc_sim.ipynb
