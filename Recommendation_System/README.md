@@ -27,12 +27,12 @@ Implementation of Hybrid recommender:
   1. [KNN]
   2. [SVD]
 
-## Movie Recommendation Engine Development with KNN:
+### Movie Recommendation Engine Development with KNN:
 
 Collaborative filtering Item-based approach is usually preferred than the user-based approach. A user-based approach is often harder to scale because of the dynamic nature of users. In contrast, items typically don't change much, so an item-based approach can often be computed offline.
 KNN is a perfect go-to model for this use case, and KNN is a very good baseline for recommender system development. In item-based collaborative filtering, KNN will use a pre-defined distance metric to find clusters of similar items based on users' ratings and make recommendations using the distance metric in item ratings of top-k nearest neighbors.
 
-### Let's Make Some Recommendations:
+#### Let's Make Some Recommendations:
 "Pulp Fiction" is one of my favorite movies so I want to test what 5 movies recommendations my system is giving me:
 
 <p>Output:</p>
@@ -42,3 +42,5 @@ KNN is a perfect go-to model for this use case, and KNN is a very good baseline 
 <p>Seven (a.k.a. Se7en) (1995)</p>
 <p>Forrest Gump (1994)</p>
 <p>Usual Suspects, The (1995)</p>
+
+### Movie Recommendation Engine Development with SVD:
