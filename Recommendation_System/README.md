@@ -20,3 +20,10 @@ Then moved to two classes of Collaborative Filtering:
   1. [User-based, which measures the similarity between target users and other users](https://github.com/tanyaryabov/ML/blob/master/Recommendation_System/RS_collaborative_filtering_user_based.ipynb)
   2. [Item-based, which measures the similarity between the items that target users rate or interact with and other items](https://github.com/tanyaryabov/ML/blob/master/Recommendation_System/RS_collaborative_filtering_item_based.ipynb)
 
+Implementation of Hybrid recommender:
+  1. [Hybrid recommendation system](https://github.com/tanyaryabov/ML/blob/master/Recommendation_System/Hybrid_recommendation_system.ipynb)
+  
+ Model based recommendation system:
+  1. [KNN]
+  2. [SVD]
+
