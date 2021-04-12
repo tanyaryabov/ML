@@ -6,7 +6,7 @@ Collaborative methods for recommender systems are based on the past interactions
 
 ### Content-based Filtering
 
-Unlike collaborative methods that only rely on user-item interactions, content-based approaches use additional information about users and/or items.  This approach utilizes a series of discrete characteristics of an item to recommend other items with similar properties.
+Unlike collaborative methods that only rely on user-item interactions, content-based approaches use additional information about users and/or items.  This approach utilizes a series of discrete characteristics of an item to recommend other items with similar properties.Cancel changes
 
 ### Hybrid Recommender
 This one combines the previous two approaches.
@@ -15,4 +15,4 @@ This one combines the previous two approaches.
 
 I've started my project with content based recommendation system and implemented it in 2 different ways:
   1. Cosine similarity based
-  2. [Euclidean distance based]https://github.com/tanyaryabov/ML/blob/master/Recommendation_System/Content_Based_Netflix_Recommender__euc_sim.ipynb
+  2. [Euclidean distance based](https://github.com/tanyaryabov/ML/blob/master/Recommendation_System/Content_Based_Netflix_Recommender__euc_sim.ipynb)
