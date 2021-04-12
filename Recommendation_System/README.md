@@ -34,9 +34,10 @@ KNN is a perfect go-to model for this use case, and KNN is a very good baseline 
 
 ### Let's Make Some Recommendations:
 "Pulp Fiction" is one of my favorite movies so I want to test what movie recommendations my system is giving me:
-(#recommender('Pulp Fiction', mat_movies_users, model_knn,5))
 
-Output:
+recommender('Pulp Fiction', mat_movies_users, model_knn,5)
+
+<p>Output:</p>
 Movie Selected:  Pulp Fiction (1994) Index:  257
 510          Silence of the Lambs, The (1991)
 277          Shawshank Redemption, The (1994)
