@@ -44,3 +44,4 @@ KNN is a perfect go-to model for this use case, and KNN is a very good baseline 
 <p>Usual Suspects, The (1995)</p>
 
 ### Movie Recommendation Engine Development with SVD:
+Collaborative filtering one using the SVD ( Singular Vector Decomposition ) technique:
