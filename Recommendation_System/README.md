@@ -44,5 +44,6 @@ KNN is a perfect go-to model for this use case, and KNN is a very good baseline 
 <p>Usual Suspects, The (1995)</p>
 
 ### Movie Recommendation Engine Development with SVD:
-Collaborative filtering one using the SVD ( Singular Vector Decomposition ) technique:
-I used python Surprise package that has a set of built-in algorithms and datasets for you to play with. I used dataset movielens-100k.
+
+I used python Surprise package that has a set of built-in algorithms and datasets for you to play with. I used dataset movielens-100k. Surprise provides a convenient way to do cross validation by dividing the data set into different folds right from the beginning. The idea behind folds is to apply cross validation to the data where training is done on all folds except one and results scoring is done on the remaining fold.
+
