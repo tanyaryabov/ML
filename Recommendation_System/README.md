@@ -47,7 +47,7 @@ KNN is a perfect go-to model for this use case, and KNN is a very good baseline 
 
 I used python Surprise package that has a set of built-in algorithms and datasets. I used dataset movielens-100k. 
 
-Optimization: 
+**Optimization:** 
 
 Surprise provides a convenient way to do cross validation by dividing the data set into different folds right from the beginning. The idea behind folds is to apply cross validation to the data where training is done on all folds except one and results scoring is done on the remaining fold. The way training happens is similar to other machine learning approaches where an algorithm try to optimize its predictions to match as closely as possible the actual results. In the context of collaborative filtering, our algorithm will try to predict the rating of a certain user-movie combination and it will compare that prediction to the actual prediction. The difference between the actual and the predicted rating is measured using classical error measurements such as Root mean squared error (RMSE).
 
