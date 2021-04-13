@@ -47,5 +47,5 @@ KNN is a perfect go-to model for this use case, and KNN is a very good baseline 
 
 I used python Surprise package that has a set of built-in algorithms and datasets for you to play with. I used dataset movielens-100k. Surprise provides a convenient way to do cross validation by dividing the data set into different folds right from the beginning. The idea behind folds is to apply cross validation to the data where training is done on all folds except one and results scoring is done on the remaining fold.
 
-(![image](https://user-images.githubusercontent.com/47042850/114516303-1fa17d00-9bf2-11eb-8653-6e4ba85ad0a6.png)
+![image](https://user-images.githubusercontent.com/47042850/114516303-1fa17d00-9bf2-11eb-8653-6e4ba85ad0a6.png
  
