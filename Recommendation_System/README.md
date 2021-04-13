@@ -24,8 +24,8 @@ Implementation of Hybrid recommender:
   1. [Hybrid recommendation system](https://github.com/tanyaryabov/ML/blob/master/Recommendation_System/Hybrid_recommendation_system.ipynb)
   
  Model based recommendation system:
-  1. [KNN]
-  2. [SVD]
+  1. [KNN](https://github.com/tanyaryabov/ML/blob/master/Recommendation_System/Content_based_kNN.ipynb)
+  2. [SVD](https://github.com/tanyaryabov/ML/blob/master/Recommendation_System/RS_colloborative_filtering_model_based.ipynb)
 
 ### Movie Recommendation Engine Development with KNN:
 
@@ -45,3 +45,4 @@ KNN is a perfect go-to model for this use case, and KNN is a very good baseline 
 
 ### Movie Recommendation Engine Development with SVD:
 Collaborative filtering one using the SVD ( Singular Vector Decomposition ) technique:
+I used python Surprise package that has a set of built-in algorithms and datasets for you to play with. I used dataset movielens-100k.
