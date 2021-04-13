@@ -45,8 +45,15 @@ KNN is a perfect go-to model for this use case, and KNN is a very good baseline 
 
 ### Movie Recommendation Engine Development with SVD:
 
-I used python Surprise package that has a set of built-in algorithms and datasets for you to play with. I used dataset movielens-100k. Surprise provides a convenient way to do cross validation by dividing the data set into different folds right from the beginning. The idea behind folds is to apply cross validation to the data where training is done on all folds except one and results scoring is done on the remaining fold. 
-Optimization: The way training happens is similar to other machine learning approaches where an algorithm try to optimize its predictions to match as closely as possible the actual results. So in the context of collaborative filtering, our algorithm will try to predict the rating of a certain user-movie combination and it will compare that prediction to the actual prediction. The difference between the actual and the predicted rating is measured using classical error measurements such as Root mean squared error (RMSE) and Mean absolute error (MAE).
+I used python Surprise package that has a set of built-in algorithms and datasets. I used dataset movielens-100k. 
+
+Optimization: 
+
+Surprise provides a convenient way to do cross validation by dividing the data set into different folds right from the beginning. The idea behind folds is to apply cross validation to the data where training is done on all folds except one and results scoring is done on the remaining fold. The way training happens is similar to other machine learning approaches where an algorithm try to optimize its predictions to match as closely as possible the actual results. In the context of collaborative filtering, our algorithm will try to predict the rating of a certain user-movie combination and it will compare that prediction to the actual prediction. The difference between the actual and the predicted rating is measured using classical error measurements such as Root mean squared error (RMSE).
 
 ![image](https://user-images.githubusercontent.com/47042850/114516303-1fa17d00-9bf2-11eb-8653-6e4ba85ad0a6.png)
  
+Leave-One-Out Cross-validation iterator where each user has exactly one rating in the testset:
+
+![image](https://user-images.githubusercontent.com/47042850/114520267-1d412200-9bf6-11eb-8ed4-12c74ad762fe.png)
+
